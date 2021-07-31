@@ -1,7 +1,3 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/ZjVyKXp9hec
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
