@@ -7,6 +7,7 @@ var NumPlayer;
 var blob;
 var Players = [];
 var blobs = []
+var Image = loadImage("canvas.jpg");
 
 var zoom = 1;
 var StandartRadiusBlob = 15;
@@ -50,6 +51,7 @@ function setup() {
 
 function draw() {
   background(160,160,160);
+  image(Image, 0, 0);
 
 
   translate(width / 2, height / 2);
